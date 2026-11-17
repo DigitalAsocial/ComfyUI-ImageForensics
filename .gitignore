@@ -1,0 +1,79 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test outputs
+test_output/
+trufor_test_output/
+mvss_test_output/
+outputs/
+temp/
+
+# Model checkpoints and weights
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.safetensors
+*.onnx
+*.engine
+*.gguf
+*.bin
+
+# Model weight directories
+**/weights/
+**/pretrained_models/
+**/checkpoints/
+
+# Dataset and test images
+datasets/
+**/datasets/
+test_images/
+**/test_images/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# ComfyUI generated files
+comfyui.log
